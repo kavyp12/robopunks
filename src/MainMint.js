@@ -3,7 +3,7 @@ import { ethers, BigNumber } from "ethers";
 import { Box, Button, Flex,  Text } from "@chakra-ui/react";
 import roboPunksNFT from "./RoboPunksNFT.json";
 
-const RoboPunksNFTAdress = "0x5E056fc07cCD996f8D49f4109176aA9b5709C4F2";
+const RoboPunksNFTAdress = "";
 
 const MainMint = ({ accounts, setAccounts }) => {
   const [mintAmount, setMintAmount] = useState(0);
